@@ -1,16 +1,18 @@
 # protoc-gen-pubsub-schema
 
-[![Go](https://github.com/alpancs/protoc-gen-pubsub-schema/actions/workflows/go.yml/badge.svg)](https://github.com/alpancs/protoc-gen-pubsub-schema/actions/workflows/go.yml)
+[![Go](https://github.com/derivita/protoc-gen-pubsub-schema/actions/workflows/go.yml/badge.svg)](https://github.com/derivita/protoc-gen-pubsub-schema/actions/workflows/go.yml)
 
 This is a [protoc](https://github.com/protocolbuffers/protobuf) plugin
 that assembles protocol buffer messages into a single-valid message for defining [Pub/Sub schemas](https://cloud.google.com/pubsub/docs/schemas).
+
+It has been forked from [github.com/alpancs/protoc-gen-pubsub-schema](https://github.com/alpancs/protoc-gen-pubsub-schema)
 
 ## Installation
 
 Run the following command to install `protoc-gen-pubsub-schema`.
 
 ```sh
-go install github.com/alpancs/protoc-gen-pubsub-schema@latest
+go install github.com/derivita/protoc-gen-pubsub-schema@latest
 ```
 
 ## Usage
